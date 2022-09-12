@@ -15,9 +15,9 @@
 int main(void)
 {
 	int n;
+
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-
 	/* my code is here */
 	if (n == 0)
 	{
