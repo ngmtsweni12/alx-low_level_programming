@@ -1,8 +1,9 @@
 #include <stdio.h>
 /** 
- * This is a C program that prints exactly the following message.
- * Uses the function puts not printf
+ * Description: This is a C program that prints exactly the following message.
+ * main - Uses the function puts not printf to print the string.
  * The program ends with the value 0
+ * Return: 0
  */
 int main(void)
 {
