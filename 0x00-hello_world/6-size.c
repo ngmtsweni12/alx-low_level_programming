@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-/*
+/**
  * main - prints all the prints the size of various types on the computer it is compiled and run on.
  *
  * Description: C program that prints the size of various types
@@ -12,7 +12,6 @@
 
 int main(void)
 {
-	/* Declarations. */
 	char c;
 	int i;
 	long li;
