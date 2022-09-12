@@ -5,7 +5,7 @@
 /*
  * main - print if n is positive,negative or zero
  *
- * Desciption: This program will assign a random number
+ * Description: This program will assign a random number
  *to the variable n each time it is executed.
  *
  * Return: 0
