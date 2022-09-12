@@ -6,7 +6,9 @@
  * main - print if n is positive,negative or zero
  *
  * Description: This program will assign a random number
- *to the variable n each time it is executed.
+ * to the variable n each time it is executed.
+ * 0-positive_or_negative.c:15: warning: 
+ * no description found for function main
  *
  * Return: 0
  *
