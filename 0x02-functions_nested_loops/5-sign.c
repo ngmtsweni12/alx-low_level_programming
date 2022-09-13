@@ -3,8 +3,6 @@
 /**
  * print_sign - print the sign of the character.
  * 
- * @n: An input character
- * 
  * Description: function returns 1 if the character is a
  * letter, lowercase or uppercase.
  *
@@ -12,21 +10,20 @@
  */
 
 int print_sign(int n)
-{
-	int sign;
-	
+{	
 	if (n == 0)
 	{
-		sign = 0;
+		_putchar('0');
+		return (0);
 	}
 	if else (n < 0)
 	{
-		sign = -;
+		_putchar('-');
+		return (-1);
 	}
 	else
 	{
-		sign = +;
+		_putchar('+');
+		return (+1);
 	}
-
-	return (sign);
 }
