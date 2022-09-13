@@ -13,7 +13,6 @@
 
 int print_sign(int n)
 {
-	int n;
 	char sign;
 	
 	if (n == 0)
