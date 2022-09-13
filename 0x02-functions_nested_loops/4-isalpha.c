@@ -13,9 +13,12 @@ int _isalpha(int c)
 	int alpha = 0;
 
 	if ((c >= 'a' && c <= 'z') || (c >= 'A' && c <= 'Z'))
+	{
 		alpha = 1;
+	}
 	else
-		alpha = 0
-
+	{
+		alpha = 0;
+	}
 	return (alpha);
 }
