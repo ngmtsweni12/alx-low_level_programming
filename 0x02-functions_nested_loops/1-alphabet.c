@@ -6,6 +6,9 @@
  * print_alphabet -> a function that prints the alphabet,
  * in lowercase, followed by a new line
  *
+ * Description: a function that prints the alphabet,
+ * in lowercase, followed by a new line 
+ *
  * Return: void
  *
  */
