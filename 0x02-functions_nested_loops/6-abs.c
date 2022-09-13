@@ -7,7 +7,7 @@
  * Description: This function returns absolute value of a number
  */
 
-int _abs(int)
+int _abs(int r)
 {
 	if (r >= 0)
 	{
