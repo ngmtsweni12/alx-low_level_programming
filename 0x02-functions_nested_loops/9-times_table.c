@@ -19,9 +19,7 @@ void times_table(void)
 		for (r = 0; r < 10; r++)
 		{	
 			multiple = c * r;
-			printf("%d",multiple);
-			_putchar(',');
-			_putchar(' ');
+			printf("%d",multiple, ", ");
 		}
 		_putchar('\n');
 	}
