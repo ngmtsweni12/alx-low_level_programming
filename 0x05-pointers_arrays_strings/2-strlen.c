@@ -2,8 +2,8 @@
 
 /**
  *_strlen - a function wwhich returns 
- * the length of a string
- * @s: given string
+ *the length of a string
+ *@s: given string
  *Return: returns length as integer;
  */
 
