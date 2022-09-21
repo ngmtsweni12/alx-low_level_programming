@@ -19,7 +19,7 @@ void rev_string(char *s)
 	}
 	while (i < len--)
 	{
-		aux = s[i];
+		reverse = s[i];
 		s[i++] = s[len];
 		s[len] = reverse;
 	}
