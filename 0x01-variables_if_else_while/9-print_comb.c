@@ -3,25 +3,28 @@
 #include <time.h>
 
 /**
- *
- * main - Entry point
- *
- * Description: task 9
+ * main - a program that prints the alphabet in lowercase,
+ * followed by a new line
  * Return: 0
  */
 
+
 int main(void)
 {
-	int d;
+	int number;
 
-	for (d = '0'; d <= '9'; d++)
+	for (number = '0'; number <= '9'; number++)
 	{
-		putchar(d);
-		if (d != '9')													{
+		putchar(number);
+		if (number == 9)
+		{
+			putchar('\n');
+		}
+		else
+		{
 			putchar(',');
 			putchar(' ');
-			
-								}
-	putchar('\n');
+		}
+	}
 	return (0);
 }
