@@ -1,19 +1,22 @@
 #include <stdio.h>
-
 #include <stdlib.h>
-
 #include <time.h>
+
+/**
+ * main - a program that prints the alphabet in lowercase,
+ * followed by a new line
+ * Return: 0
+ */
+
 
 int main(void)
 {
-	int d;
-	char low;
+	int number;
 
-	for (d = '0'; d <= '9'; d++)
-		putchar(d);
-	for (low = 'a'; low <= 'f'; low++)
-		putchar(low)
+	for (number = '0'; number <= '16'; number++)
+	{
+		putchar(number);
+	}
 	putchar('\n');
-
 	return (0);
 }
