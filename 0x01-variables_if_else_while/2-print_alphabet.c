@@ -18,6 +18,5 @@ int main(void)
 		putchar(lowercase);
 	}
 	putchar(lowercase);
-	
 	return (0);
 }
