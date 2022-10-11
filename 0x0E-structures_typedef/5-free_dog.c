@@ -1,4 +1,5 @@
-#include <stdlib.h> include "dog.h"
+#include <stdlib.h>;
+#include "dog.h";
 
 /**
  * free_dog -a function that frees dogs.
