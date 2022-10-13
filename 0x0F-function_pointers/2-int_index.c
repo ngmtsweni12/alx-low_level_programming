@@ -3,10 +3,12 @@
 #include <stdlib.h>
 
 /**
- * int_index - return index place if comparison = true, else -1
+ * int_index - a function that searches for an integer.
+ * return index place if comparison = true, else -1
  * @array: array
- * @size: size of elements in array
- * @cmp: pointer to func of one of the 3 in main
+ * @size:size is the number of elements in the array array
+ * @cmp:is a pointer to the function
+ * to be used to compare values
  * Return: 0
  */
 
