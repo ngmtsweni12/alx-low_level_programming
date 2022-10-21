@@ -16,15 +16,7 @@ int main(void)
 	for (number = '0'; number <= '9'; number++)
 	{
 		putchar(number);
-		if (number == 8)
-		{
-			putchar('\n');
-		}
-		else
-		{
-			putchar(',');
-			putchar(' ');
-		}
 	}
+	putchar('\n');
 	return (0);
 }
