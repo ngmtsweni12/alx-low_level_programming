@@ -1,5 +1,6 @@
 #include "lists.h"
 #include <stdio.h>
+#include <stdlib.h>
 
 /**
  * print_list - a function that prints
@@ -11,11 +12,11 @@
 
 size_t print_list(const list_t *h)
 {
-	int node_count = 0;
+	size_t node_count = 0;
 
 	if (h == NULL)
 	{
-		printf("[0] (nil)\n");
+		printf("[%d] (nil)\n", h->len);
 	}
 	while (h != NULL)
 	{

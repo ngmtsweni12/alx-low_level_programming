@@ -2,18 +2,20 @@
 #include "lists.h"
 
 /**
-  * listint_len - prints all elements of a list_t list
-  * @h: singly linked listparameter
-  * Return: total number of nodes in the list
-  */
+ * list_len - prints all elements of a list_t list
+ * @h: singly linked listparameter
+ *
+ * Return: total number of nodes in the list
+ */
 
-size_t listint_len(const listint_t *h)
+size_t list_len(const list_t *h)
 {
-	size_t i;
+	size_t node_count = 0;
 
-	for (i = 0; h; i++)
+	while (h != NULL)
 	{
+		node_count++;
 		h = h->next;
 	}
-	return (i);
+	return (node_count);
 }
