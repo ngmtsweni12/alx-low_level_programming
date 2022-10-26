@@ -2,11 +2,13 @@
 #include <stdlib.h>
 
 /**
-  * free_listint - define function
-  * @head: describe argument
-  */
+ * free_list - define function
+ * @head: describe argument
+ *
+ * Return: head
+ */
 
-void free_listint(listint_t *head)
+void free_list(listint_t *head)
 {
 	if (head == NULL)
 	{
