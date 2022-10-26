@@ -8,12 +8,12 @@
  * Return: head
  */
 
-void free_list(listint_t *head)
+void free_list(list_t *head)
 {
 	if (head == NULL)
 	{
 		return;
 	}
-	free_listint(head->next);
+	free_list(head->next);
 	free(head);
 }
