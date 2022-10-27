@@ -1,7 +1,7 @@
 #include "lists.h"
 
 /**
- * get_nodeint_at_index Find the given node of
+ * get_nodeint_at_index - Find the given node of
  * a listint_t linked list.
  * @head: the head of the listint_t list.
  * @index: The index of the node to find
