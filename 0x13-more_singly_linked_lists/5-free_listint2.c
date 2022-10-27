@@ -1,11 +1,9 @@
 #include "lists.h"
 
 /**
- * free_listint2 - A function that frees 
- * a listint_t list.
- * @head: The address of the head 
- * of the listint_t list.
- 
+ * free_listint2 - A function that frees the list.
+ * @head: The address of the head of the list.
+ *
  * Description: Set the head to NULL.
  */
 
@@ -23,6 +21,5 @@ void free_listint2(listint_t **head)
 		free(*head);
 		*head = tmp;
 	}
-
 	head = NULL;
 }
